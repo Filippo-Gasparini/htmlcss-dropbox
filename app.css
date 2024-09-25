@@ -30,8 +30,40 @@
 /*inizio*/
 
 
+
+
+
+
+
+
 .container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+
+
+.container_1 {
+    display: flex;
+    margin-left: 300px;
+}
+
+
+.list_1 {
+    display: flex;
+    gap: 30px;
+}
+
+ 
+.list_2 {
+    display: flex;
+    gap:30px;
     
 }
 
+
+.button {
+    border-radius: 30px;
+}
