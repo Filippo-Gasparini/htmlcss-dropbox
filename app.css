@@ -3,7 +3,7 @@
 
 .container {
     max-width: 100%;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
 }
 
@@ -28,13 +28,6 @@
 
 
 /*inizio*/
-
-
-
-
-
-
-
 
 .container {
     display: flex;
@@ -66,4 +59,15 @@
 
 .button {
     border-radius: 30px;
+
 }
+
+
+
+/*section*/
+
+.main-container {
+    background-color:rgba(166, 225, 250, 0.36);
+    height: 700px;
+}
+
