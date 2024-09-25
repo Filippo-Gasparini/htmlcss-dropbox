@@ -57,29 +57,41 @@
 }
 
 
-.button {
-    border-radius: 30px;
-
+.li,button {
+    border-radius: 990px;
+    background-color: rgba(89, 89, 240, 0.903);
+    font-size: 15px;
+    
 }
+
+
+
+ul {
+    list-style-type: none;
+    }
 
 
 
 /*section*/
 
 .main-container {
-    background-color:rgba(166, 225, 250, 0.36);
+    background-color:#a6e1fa5c;
     height: 700px;
 }
 
 .row {
-    container-sm 
+    background-color:rgba(166, 225, 250, 0.36);
     display: flex;
     text-align: center;
     flex-direction: row;
     align-items: center;
     text-align: center;
     justify-content:center;
-    margin-top: 30p;
 }
 
 
+.container-hero, .row {
+    display: flex;
+    text-align: left;
+    
+}
