@@ -26,6 +26,10 @@
 }
 
 
+.img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /*inizio*/
 
@@ -75,12 +79,24 @@ ul {
 /*section*/
 
 .main-container {
-    background-color:#a6e1fa5c;
-    height: 700px;
+    background-color:#20b6f69b;
+    height: 600px;
+    border-radius: 30px;
 }
 
+
+
+.container-sm, .text {
+    font-size: 30px;
+}
+
+
+
+
+
+
 .row {
-    background-color:rgba(166, 225, 250, 0.36);
+    
     display: flex;
     text-align: center;
     flex-direction: row;
@@ -89,9 +105,13 @@ ul {
     justify-content:center;
 }
 
-
-.container-hero, .row {
-    display: flex;
-    text-align: left;
-    
+.img {
+    max-width:0 auto;
+    max-height:0 auto;
 }
+
+.container-hero {
+    display: flex;   
+}
+
+
