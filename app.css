@@ -33,20 +33,28 @@
 
 /*inizio*/
 
-.container {
+.menu {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-   
+    justify-content: space-between;
+}
+
+.logo {
+    align-self: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 
 
 .container_1 {
-    display: flex;
-    margin-left: 300px;
-}
+   margin: 0 auto;
+   max-width: 100%;
 
+}
+   
 
 .list_1 {
     display: flex;
@@ -80,48 +88,38 @@ ul {
 
 .main-container {
     background-color:#20b6f69b;
-    height: 600px;
-}
-
-.row {
-    
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    justify-content:center;
+    height: 400px;
 }
 
 
 
-
+.width-100 {
+    width: 100%;
+}
 
 
 .container-hero {
-    display: flex;   
-}
-
-
-.col-50 {
-    
-}
-
-
-.container_sm {
     max-width: 900px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
+    margin: 0 auto;  
 }
 
 
 
-.row-1, .hero_content {
+.container-sm {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.row {
+    align-items: center;
+
+}
+.hero_content {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 
 
@@ -136,36 +134,27 @@ ul {
 
 
 
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: beige;
+    height: 300px;
+}
 
 
 
 
-.plans, .plans_container {
-    width: 100%;
-    flex-wrap: nowrap;
-    background-color:beige;
+
+.col-1 {
     flex-direction: row;
-    text-align: center;
-    height: 800px;
-    border-radius: 3px;
-}
-
-
-
-.row {
-    color: blueviolet;
-}
-
-
-
-.card-container, .card-body {
-    background-color: rgba(182, 182, 249, 0.229);
     display: flex;
-    flex-direction: row;
-    height: 200px;
-    
+    justify-content: center;
+
 }
 
 
+.col-1_2 {
+    justify-content: center;
+    align-items: center;
 
-
+}
