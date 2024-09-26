@@ -103,6 +103,11 @@ ul {
 }
 
 
+.col-50 {
+    
+}
+
+
 .container_sm {
     max-width: 900px;
     display: flex;
@@ -112,9 +117,11 @@ ul {
 }
 
 
+
 .row-1, .hero_content {
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -131,5 +138,15 @@ ul {
 
 
 
+
+
+.plans {
+    width: 100%;
+    background-color:beige;
+    flex-direction: row;
+    text-align: center;
+    height: 800px;
+    border-radius: 3px;
+}
 
 
