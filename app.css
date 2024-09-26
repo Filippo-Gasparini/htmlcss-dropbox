@@ -81,19 +81,7 @@ ul {
 .main-container {
     background-color:#20b6f69b;
     height: 600px;
-    border-radius: 30px;
 }
-
-
-
-.container-sm, .text {
-    font-size: 30px;
-}
-
-
-
-
-
 
 .row {
     
@@ -105,13 +93,43 @@ ul {
     justify-content:center;
 }
 
-.img {
-    max-width:0 auto;
-    max-height:0 auto;
-}
+
+
+
+
 
 .container-hero {
     display: flex;   
 }
+
+
+.container_sm {
+    max-width: 900px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.row-1, .hero_content {
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/*piani abbonamento*/
+
+
+
+
+
 
 
